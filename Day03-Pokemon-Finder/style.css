@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', 'Poppins', sans-serif;
+}
+
+/* Card container without blur */
+.container {
+  background-color: rgba(255, 255, 255, 0.1); /* Transparent white */
+  border-radius: 20px;
+  padding: 30px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3); /* Soft shadow for depth */
+  color: #fff;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Heading */
+.container h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+/* Search box */
+.search-box {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  flex: 1;
+  font-size: 1rem;
+  outline: none;
+}
+
+.search-box button {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: #ffffffaa;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.search-box button:hover {
+  background-color: #fff;
+}
+
+/* Pokémon Info */
+.pokemon-info img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pokemon-info h3,
+.pokemon-info h4 {
+  margin: 8px 0;
+}
+
+
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.video-background iframe {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  pointer-events: none; /* So it doesn’t block your buttons */
+  filter: brightness(0.3) blur(1px); /* Optional: darkens & softens */
+}
+
+/* #pokemonImage {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin: 20px 0;
+  transition: transform 0.3s ease;
+} */

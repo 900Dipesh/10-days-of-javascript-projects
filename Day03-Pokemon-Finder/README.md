@@ -16,13 +16,6 @@ This project is a **Pokémon Finder** app that allows users to search any Pokém
 
 ---
 
-## 🚀 Live Demo
-
-🔗 [Click here to view live project](https://900Dipesh.github.io/10-days-of-javascript-projects/Day03-Pokemon-Finder/)
-
-> Make sure your repo has GitHub Pages enabled!
-
----
 
 ## 🛠️ Tech Stack
 
@@ -33,13 +26,6 @@ This project is a **Pokémon Finder** app that allows users to search any Pokém
 
 ---
 
-## 🖼️ Preview
 
-![Pokemon Finder Screenshot](screenshot.png)
 
-> *(Add a screenshot named `screenshot.png` in the same folder)*
-
----
-
-## 📂 Folder Structure
 

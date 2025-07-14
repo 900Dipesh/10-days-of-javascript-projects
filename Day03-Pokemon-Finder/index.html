@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Pokemon Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="video-background">
+        <iframe id="ytPlayer"
+            src="https://www.youtube.com/embed/6xKWiCMKKJg?autoplay=1&controls=0&loop=1&playlist=6xKWiCMKKJg&modestbranding=1&showinfo=0"
+            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+
+
+
+    <div class="container">
+        <h2>Find your Pokémon here!!</h2>
+
+        <div class="search-box">
+            <input type="text" id="pokemonInput" placeholder="Enter Pokémon name or ID..." />
+            <button onclick="fetchPokemon()">Find</button>
+        </div>
+
+        <div class="pokemon-info" id="pokemonInfo">
+            <img id="pokemonImage" src="" alt="Pokémon Image" style="display: none; width: 200px; height: 200px;" />
+            <h3 id="pokemonName"> Pokemon Name</h3>
+            <h4 id="pokemonType">Type</h4>
+            <h4 id="pokemonStats"> Stats</h4>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(237, 236, 229, 0.699);
+}
+
+.card {
+  border-radius: 20px;
+  padding: 10px 30px;
+  width: 300px;
+  background: #1bb4cf;
+  box-shadow: 0 4px 20px rgba(177, 111, 111, 0.1);
+  backdrop-filter: blur(15px);
+}
+
+.card:hover {
+  background: #1e9ab0;
+}
+
+#result {
+  display: none;
+  color: white;
+  background-color: rgb(93, 229, 14);
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+button {
+  margin-left: 90px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  width: 120px;
+  margin-top: 10px;
+  background-color: #60de16;
+}
+
+h2 {
+  margin-left: 60px;
+  font-size: 30px;
+}
+
+input {
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+
+.table-card {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+.bmi-heading {
+  text-align: center;
+  color: #1a237e;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #c5cae9;
+  padding: 12px;
+  text-align: center;
+  font-size: 16px;
+}
+
+th {
+  background-color: #3f51b5;
+  color: white;
+}
+
+td {
+  background-color: #f4f6fd;
+  color: #1a237e;
+}
